@@ -1,0 +1,8 @@
+compile = "make -s"
+run = "./main"
+entrypoint = "main.p"
+
+hidden = ["*.o"]
+
+[nix]
+channel = "stable-21_11"
